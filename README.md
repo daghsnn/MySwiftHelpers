@@ -10,11 +10,11 @@ Most of using extensions by me and get supported with frameworks like(Snapkit) c
 
 ### Using of Extensions 
 
--Optional Extension
--Shadow extension to UIView
--String height/width getter extension
--UIDevice extension (for using iPad iPhone device status)
--Userdefault Extension for easy to save get device caches
+- Optional Extension
+- Shadow extension to UIView
+- String height/width getter extension
+- UIDevice extension (for using iPad iPhone device status)
+- Userdefault Extension for easy to save get device caches
 
 ## Network
 
