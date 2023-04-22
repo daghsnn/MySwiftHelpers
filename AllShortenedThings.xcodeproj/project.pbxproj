@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A913125D2785ED5800430A01 /* BaseAFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913125C2785ED5800430A01 /* BaseAFService.swift */; };
+		A918CE8227D378F1008844CF /* Extension+String-DoLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918CE8127D378F1008844CF /* Extension+String-DoLocalizedString.swift */; };
 		A93B33F92768F69800927CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B33F82768F69800927CA9 /* AppDelegate.swift */; };
 		A93B33FB2768F69800927CA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B33FA2768F69800927CA9 /* SceneDelegate.swift */; };
 		A93B33FD2768F69800927CA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B33FC2768F69800927CA9 /* ViewController.swift */; };
@@ -30,9 +31,11 @@
 		A94E727A276A8E09003B74D3 /* CreditCardRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E7279276A8E09003B74D3 /* CreditCardRadioButton.swift */; };
 		A94E727E276ABC47003B74D3 /* MovingObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E727D276ABC47003B74D3 /* MovingObjectExample.swift */; };
 		A95A243F277A2DC100219E08 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A95A243E277A2DC100219E08 /* MobileNetV2.mlmodel */; };
+		A97E90CF27A894DD00D48EE8 /* TransitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E90CE27A894DD00D48EE8 /* TransitionVC.swift */; };
 		A9948C36277D15CC0042F14A /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9948C35277D15CC0042F14A /* CombineVC.swift */; };
 		A99DD4B5277B5CEF009C361C /* CameraPredictionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DD4B4277B5CEF009C361C /* CameraPredictionVC.swift */; };
 		A99DD4B8277B5D1F009C361C /* CameraPredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DD4B7277B5D1F009C361C /* CameraPredictionView.swift */; };
+		A9BE9C8627CA844C00859942 /* Extension+TextView+AnimatedLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BE9C8527CA844C00859942 /* Extension+TextView+AnimatedLink.swift */; };
 		DAC00BB361F7F170A516CAFD /* Pods_AllShortenedThings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F881E4003615752AED3BA6EE /* Pods_AllShortenedThings.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,7 @@
 /* Begin PBXFileReference section */
 		5BB8002C2314A78BD86E0E44 /* Pods-AllShortenedThings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllShortenedThings.debug.xcconfig"; path = "Target Support Files/Pods-AllShortenedThings/Pods-AllShortenedThings.debug.xcconfig"; sourceTree = "<group>"; };
 		A913125C2785ED5800430A01 /* BaseAFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAFService.swift; sourceTree = "<group>"; };
+		A918CE8127D378F1008844CF /* Extension+String-DoLocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String-DoLocalizedString.swift"; sourceTree = "<group>"; };
 		A93B33F52768F69800927CA9 /* AllShortenedThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllShortenedThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93B33F82768F69800927CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A93B33FA2768F69800927CA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,9 +80,11 @@
 		A94E7279276A8E09003B74D3 /* CreditCardRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardRadioButton.swift; sourceTree = "<group>"; };
 		A94E727D276ABC47003B74D3 /* MovingObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObjectExample.swift; sourceTree = "<group>"; };
 		A95A243E277A2DC100219E08 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		A97E90CE27A894DD00D48EE8 /* TransitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionVC.swift; sourceTree = "<group>"; };
 		A9948C35277D15CC0042F14A /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
 		A99DD4B4277B5CEF009C361C /* CameraPredictionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPredictionVC.swift; sourceTree = "<group>"; };
 		A99DD4B7277B5D1F009C361C /* CameraPredictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPredictionView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A9BE9C8527CA844C00859942 /* Extension+TextView+AnimatedLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+TextView+AnimatedLink.swift"; sourceTree = "<group>"; };
 		F835ED834241CDA9A0A1D878 /* Pods-AllShortenedThings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllShortenedThings.release.xcconfig"; path = "Target Support Files/Pods-AllShortenedThings/Pods-AllShortenedThings.release.xcconfig"; sourceTree = "<group>"; };
 		F881E4003615752AED3BA6EE /* Pods_AllShortenedThings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllShortenedThings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,6 +145,7 @@
 				A93B34032768F69C00927CA9 /* LaunchScreen.storyboard */,
 				A93B34062768F69C00927CA9 /* Info.plist */,
 				A9948C38277D17E60042F14A /* Combine Login Screen */,
+				A97E90CE27A894DD00D48EE8 /* TransitionVC.swift */,
 			);
 			path = AllShortenedThings;
 			sourceTree = "<group>";
@@ -155,6 +162,8 @@
 				A93B346E27693A1500927CA9 /* Extension+Shadow.swift */,
 				A93B347227693CD800927CA9 /* Extension+AppDelegate.swift */,
 				A93B347B276956CD00927CA9 /* Extension+StringSizeWH.swift */,
+				A9BE9C8527CA844C00859942 /* Extension+TextView+AnimatedLink.swift */,
+				A918CE8127D378F1008844CF /* Extension+String-DoLocalizedString.swift */,
 			);
 			path = "Extension-Examples";
 			sourceTree = "<group>";
@@ -341,6 +350,7 @@
 				A93B346C27692AEC00927CA9 /* CustomPaddingLabel.swift in Sources */,
 				A93B346027690BA300927CA9 /* Extension+UserDefaults.swift in Sources */,
 				A93B344D276908AF00927CA9 /* NetworkReachabilityManage.swift in Sources */,
+				A918CE8227D378F1008844CF /* Extension+String-DoLocalizedString.swift in Sources */,
 				A93B346F27693A1500927CA9 /* Extension+Shadow.swift in Sources */,
 				A93B33FD2768F69800927CA9 /* ViewController.swift in Sources */,
 				A99DD4B5277B5CEF009C361C /* CameraPredictionVC.swift in Sources */,
@@ -352,7 +362,9 @@
 				A93B34112768F73400927CA9 /* AFError.swift in Sources */,
 				A93B347327693CD800927CA9 /* Extension+AppDelegate.swift in Sources */,
 				A95A243F277A2DC100219E08 /* MobileNetV2.mlmodel in Sources */,
+				A97E90CF27A894DD00D48EE8 /* TransitionVC.swift in Sources */,
 				A93B3464276929D600927CA9 /* CustomTextField.swift in Sources */,
+				A9BE9C8627CA844C00859942 /* Extension+TextView+AnimatedLink.swift in Sources */,
 				A94E727A276A8E09003B74D3 /* CreditCardRadioButton.swift in Sources */,
 				A93B33F92768F69800927CA9 /* AppDelegate.swift in Sources */,
 				A93B3446276905A800927CA9 /* Extension+UIFont.swift in Sources */,
